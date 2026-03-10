@@ -11,3 +11,9 @@ dependencies = [
 dashboard = [
     "streamlit",
 ]
+
+[tool.almanak]
+framework = "v2"
+
+[tool.almanak.run]
+interval = 60
