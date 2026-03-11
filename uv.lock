@@ -161,11 +161,11 @@ dependencies = [
     { name = "web3" },
 ]
 wheels = [
-    { url = "https://europe-west4-python.pkg.dev/almanak-production/almanak-py/almanak/almanak-2.3.1rc1-py3-none-macosx_11_0_arm64.whl", hash = "sha256:489b36531cdecdb715630689fef153302c806358516d5937b2347f582f62f3f7" },
-    { url = "https://europe-west4-python.pkg.dev/almanak-production/almanak-py/almanak/almanak-2.3.1rc1-py3-none-macosx_11_0_x86_64.whl", hash = "sha256:bd8f826af1b671c56c692822c51b2c9d3f486b973878175ce6c4df0acb1cbd7c" },
-    { url = "https://europe-west4-python.pkg.dev/almanak-production/almanak-py/almanak/almanak-2.3.1rc1-py3-none-manylinux_2_17_aarch64.whl", hash = "sha256:68408a48d435d06a554d8ef6b7344521a989eb745a63706c7bdf742b6ec22ce8" },
-    { url = "https://europe-west4-python.pkg.dev/almanak-production/almanak-py/almanak/almanak-2.3.1rc1-py3-none-manylinux_2_17_x86_64.whl", hash = "sha256:1e332e6096a2aebc4bd218765beb4ee022074aedbe75595d7dd5ece31633042e" },
-    { url = "https://europe-west4-python.pkg.dev/almanak-production/almanak-py/almanak/almanak-2.3.1rc1-py3-none-win_amd64.whl", hash = "sha256:1d2b99c8c300a8b1d5b039047550f4f2d5b8f111d3af8d185867c03e558ce4b0" },
+    { url = "https://europe-west4-python.pkg.dev/almanak-production/almanak-py/almanak/almanak-2.3.1rc1-py3-none-macosx_11_0_arm64.whl", hash = "sha256:099f7e94b30a778e721ddbe14b44502e7937679acad9710db8ad6316b716f4e6" },
+    { url = "https://europe-west4-python.pkg.dev/almanak-production/almanak-py/almanak/almanak-2.3.1rc1-py3-none-macosx_11_0_x86_64.whl", hash = "sha256:3b959f1ef25b136b360f00e7fbd36ba58fe34a1259fc2c2cc4768ab263bd5645" },
+    { url = "https://europe-west4-python.pkg.dev/almanak-production/almanak-py/almanak/almanak-2.3.1rc1-py3-none-manylinux_2_17_aarch64.whl", hash = "sha256:d12a30de1344e1e17a760a6294e8922860c5598d5d7995970c3b61250d7f7c1d" },
+    { url = "https://europe-west4-python.pkg.dev/almanak-production/almanak-py/almanak/almanak-2.3.1rc1-py3-none-manylinux_2_17_x86_64.whl", hash = "sha256:f097f4e9319dd59bdcc9fc00bb952c0c3d275531ed9af97be33b277f1a57d38c" },
+    { url = "https://europe-west4-python.pkg.dev/almanak-production/almanak-py/almanak/almanak-2.3.1rc1-py3-none-win_amd64.whl", hash = "sha256:0253a006643b292f2058637c3bd0797e75f197c07948326a2652c228ac08e06c" },
 ]
 
 [[package]]
