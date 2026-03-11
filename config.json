@@ -1,5 +1,6 @@
 {
-    "trade_size_usd": 3,
+    "chain": "base",
+    "trade_size_usd": 1,
     "rsi_period": 14,
     "rsi_oversold": 40,
     "rsi_overbought": 70,
