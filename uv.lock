@@ -2,6 +2,9 @@ version = 1
 revision = 3
 requires-python = ">=3.12"
 
+[options]
+prerelease-mode = "allow"
+
 [[package]]
 name = "aiohappyeyeballs"
 version = "2.6.1"
@@ -125,7 +128,7 @@ wheels = [
 
 [[package]]
 name = "almanak"
-version = "2.3.1rc1"
+version = "2.3.1rc2"
 source = { registry = "https://europe-west4-python.pkg.dev/almanak-production/almanak-py/simple/" }
 dependencies = [
     { name = "aiohttp" },
@@ -161,11 +164,11 @@ dependencies = [
     { name = "web3" },
 ]
 wheels = [
-    { url = "https://europe-west4-python.pkg.dev/almanak-production/almanak-py/almanak/almanak-2.3.1rc1-py3-none-macosx_11_0_arm64.whl", hash = "sha256:099f7e94b30a778e721ddbe14b44502e7937679acad9710db8ad6316b716f4e6" },
-    { url = "https://europe-west4-python.pkg.dev/almanak-production/almanak-py/almanak/almanak-2.3.1rc1-py3-none-macosx_11_0_x86_64.whl", hash = "sha256:3b959f1ef25b136b360f00e7fbd36ba58fe34a1259fc2c2cc4768ab263bd5645" },
-    { url = "https://europe-west4-python.pkg.dev/almanak-production/almanak-py/almanak/almanak-2.3.1rc1-py3-none-manylinux_2_17_aarch64.whl", hash = "sha256:d12a30de1344e1e17a760a6294e8922860c5598d5d7995970c3b61250d7f7c1d" },
-    { url = "https://europe-west4-python.pkg.dev/almanak-production/almanak-py/almanak/almanak-2.3.1rc1-py3-none-manylinux_2_17_x86_64.whl", hash = "sha256:f097f4e9319dd59bdcc9fc00bb952c0c3d275531ed9af97be33b277f1a57d38c" },
-    { url = "https://europe-west4-python.pkg.dev/almanak-production/almanak-py/almanak/almanak-2.3.1rc1-py3-none-win_amd64.whl", hash = "sha256:0253a006643b292f2058637c3bd0797e75f197c07948326a2652c228ac08e06c" },
+    { url = "https://europe-west4-python.pkg.dev/almanak-production/almanak-py/almanak/almanak-2.3.1rc2-py3-none-macosx_11_0_arm64.whl", hash = "sha256:6b7c90ebc1084817a0989f6a536e84be0cee7bafce2998cb5ec79577d4bcbc13" },
+    { url = "https://europe-west4-python.pkg.dev/almanak-production/almanak-py/almanak/almanak-2.3.1rc2-py3-none-macosx_11_0_x86_64.whl", hash = "sha256:7179611f7227ff87e12c5c2ddc4314f8d5bd867ef06c673f316914acada49fef" },
+    { url = "https://europe-west4-python.pkg.dev/almanak-production/almanak-py/almanak/almanak-2.3.1rc2-py3-none-manylinux_2_17_aarch64.whl", hash = "sha256:35a9f18110d8c20ac93b3abb143be1c9568b351d1e7428b60b4ce757ebc92586" },
+    { url = "https://europe-west4-python.pkg.dev/almanak-production/almanak-py/almanak/almanak-2.3.1rc2-py3-none-manylinux_2_17_x86_64.whl", hash = "sha256:1824b24b6481614795deb9546dedb3e44a1428d4715cd75c0de1559dd51f9ee8" },
+    { url = "https://europe-west4-python.pkg.dev/almanak-production/almanak-py/almanak/almanak-2.3.1rc2-py3-none-win_amd64.whl", hash = "sha256:a91257fa3283235748e3333ac3f2c852b98d07cae285547b172c22754f34afd2" },
 ]
 
 [[package]]
@@ -2766,7 +2769,7 @@ dashboard = [
 
 [package.metadata]
 requires-dist = [
-    { name = "almanak", specifier = "==2.3.1rc1" },
+    { name = "almanak", specifier = "==2.3.1rc2" },
     { name = "streamlit", marker = "extra == 'dashboard'" },
 ]
 provides-extras = ["dashboard"]
