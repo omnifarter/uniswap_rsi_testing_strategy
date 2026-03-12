@@ -2,7 +2,7 @@
     "chain": "base",
     "trade_size_usd": 1,
     "rsi_period": 14,
-    "rsi_oversold": 50,
+    "rsi_oversold": 99,
     "rsi_overbought": 55,
     "max_slippage_bps": 100,
     "base_token": "WETH",

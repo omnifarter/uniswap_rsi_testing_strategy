@@ -211,9 +211,6 @@ class UniswapRSIStrategy(IntentStrategy):
         # This can be useful for logging/debugging
         self._consecutive_holds = 0
 
-        # Initial buy: immediately buy 20% of trade size on first tick
-        self._initial_buy_done = False
-
         # Log initialization for debugging
         logger.info(
             f"UniswapRSIStrategy initialized: "
@@ -259,24 +256,6 @@ class UniswapRSIStrategy(IntentStrategy):
             Catch specific exceptions (e.g., ValueError) where recovery is possible.
             Let unexpected errors propagate to the framework's STRATEGY_ERROR handler.
         """
-
-        # =================================================================
-        # STEP 0: Initial buy — 20% of trade size on first tick
-        # =================================================================
-        if not self._initial_buy_done:
-            self._initial_buy_done = True
-            initial_amount = self.trade_size_usd * Decimal("0.2")
-            logger.info(
-                f"🚀 INITIAL BUY: Buying {format_usd(initial_amount)} of {self.base_token} "
-                f"(20% of trade size)"
-            )
-            return Intent.swap(
-                from_token=self.quote_token,
-                to_token=self.base_token,
-                amount_usd=initial_amount,
-                max_slippage=Decimal(str(self.max_slippage_bps)) / Decimal("10000"),
-                protocol="uniswap_v3",
-            )
 
         # =================================================================
         # STEP 1: Get current market price
