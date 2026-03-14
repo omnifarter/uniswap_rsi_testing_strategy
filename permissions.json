@@ -1,0 +1,186 @@
+{
+  "arbitrum": [
+    {
+      "address": "0x38869bf66a61cF6bDB996A6aE40D5853Fd43B526",
+      "clearance": 2,
+      "executionOptions": 2,
+      "functions": [
+        {
+          "selector": "0x8d80ff0a",
+          "wildcarded": true
+        }
+      ]
+    },
+    {
+      "address": "0x68b3465833fb72A70ecDF485E0e4C7bD8665Fc45",
+      "clearance": 2,
+      "executionOptions": 0,
+      "functions": [
+        {
+          "selector": "0x04e45aaf",
+          "wildcarded": true
+        }
+      ]
+    },
+    {
+      "address": "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1",
+      "clearance": 2,
+      "executionOptions": 0,
+      "functions": [
+        {
+          "selector": "0x095ea7b3",
+          "wildcarded": true
+        }
+      ]
+    },
+    {
+      "address": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+      "clearance": 2,
+      "executionOptions": 0,
+      "functions": [
+        {
+          "selector": "0x095ea7b3",
+          "wildcarded": true
+        }
+      ]
+    }
+  ],
+  "ethereum": [
+    {
+      "address": "0x38869bf66a61cF6bDB996A6aE40D5853Fd43B526",
+      "clearance": 2,
+      "executionOptions": 2,
+      "functions": [
+        {
+          "selector": "0x8d80ff0a",
+          "wildcarded": true
+        }
+      ]
+    },
+    {
+      "address": "0x68b3465833fb72A70ecDF485E0e4C7bD8665Fc45",
+      "clearance": 2,
+      "executionOptions": 0,
+      "functions": [
+        {
+          "selector": "0x04e45aaf",
+          "wildcarded": true
+        }
+      ]
+    },
+    {
+      "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+      "clearance": 2,
+      "executionOptions": 0,
+      "functions": [
+        {
+          "selector": "0x095ea7b3",
+          "wildcarded": true
+        }
+      ]
+    },
+    {
+      "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+      "clearance": 2,
+      "executionOptions": 0,
+      "functions": [
+        {
+          "selector": "0x095ea7b3",
+          "wildcarded": true
+        }
+      ]
+    }
+  ],
+  "base": [
+    {
+      "address": "0x2626664c2603336E57B271c5C0b26F421741e481",
+      "clearance": 2,
+      "executionOptions": 0,
+      "functions": [
+        {
+          "selector": "0x04e45aaf",
+          "wildcarded": true
+        }
+      ]
+    },
+    {
+      "address": "0x38869bf66a61cF6bDB996A6aE40D5853Fd43B526",
+      "clearance": 2,
+      "executionOptions": 2,
+      "functions": [
+        {
+          "selector": "0x8d80ff0a",
+          "wildcarded": true
+        }
+      ]
+    },
+    {
+      "address": "0x4200000000000000000000000000000000000006",
+      "clearance": 2,
+      "executionOptions": 0,
+      "functions": [
+        {
+          "selector": "0x095ea7b3",
+          "wildcarded": true
+        }
+      ]
+    },
+    {
+      "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+      "clearance": 2,
+      "executionOptions": 0,
+      "functions": [
+        {
+          "selector": "0x095ea7b3",
+          "wildcarded": true
+        }
+      ]
+    }
+  ],
+  "optimism": [
+    {
+      "address": "0x0b2C639c533813f4Aa9D7837CAf62653d097Ff85",
+      "clearance": 2,
+      "executionOptions": 0,
+      "functions": [
+        {
+          "selector": "0x095ea7b3",
+          "wildcarded": true
+        }
+      ]
+    },
+    {
+      "address": "0x38869bf66a61cF6bDB996A6aE40D5853Fd43B526",
+      "clearance": 2,
+      "executionOptions": 2,
+      "functions": [
+        {
+          "selector": "0x8d80ff0a",
+          "wildcarded": true
+        }
+      ]
+    },
+    {
+      "address": "0x4200000000000000000000000000000000000006",
+      "clearance": 2,
+      "executionOptions": 0,
+      "functions": [
+        {
+          "selector": "0x095ea7b3",
+          "wildcarded": true
+        }
+      ]
+    },
+    {
+      "address": "0x68b3465833fb72A70ecDF485E0e4C7bD8665Fc45",
+      "clearance": 2,
+      "executionOptions": 0,
+      "functions": [
+        {
+          "selector": "0x04e45aaf",
+          "wildcarded": true
+        }
+      ]
+    }
+  ]
+}
