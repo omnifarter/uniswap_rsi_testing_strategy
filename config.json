@@ -1,5 +1,5 @@
 {
-    "chain": "base",
+    "chain": "arbitrum",
     "trade_size_usd": 1,
     "rsi_period": 14,
     "rsi_oversold": 99,
